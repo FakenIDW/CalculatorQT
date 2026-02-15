@@ -18,7 +18,7 @@ A simple calculator built with C++ and Qt Framework.
 - QJSEngine for expression evaluation
 
 ## Screenshots
-(Add screenshots of your calculator here)
+
 
 ## How to build
 1. Clone the repository
