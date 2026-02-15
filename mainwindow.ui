@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>296</width>
-    <height>428</height>
+    <width>300</width>
+    <height>394</height>
    </rect>
   </property>
   <property name="font">
@@ -17,6 +17,14 @@
   </property>
   <property name="windowTitle">
    <string>Calculator</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>icon/calculator_icon.ico</normaloff>
+    <normalon>:/icon/icon/calculator_icon.ico</normalon>
+    <disabledoff>:/icon/icon/calculator_icon.ico</disabledoff>
+    <activeoff>:/icon/icon/calculator_icon.ico</activeoff>
+    <activeon>:/icon/icon/calculator_icon.ico</activeon>icon/calculator_icon.ico</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QPushButton" name="pushButton">
@@ -308,7 +316,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>296</width>
+     <width>300</width>
      <height>31</height>
     </rect>
    </property>

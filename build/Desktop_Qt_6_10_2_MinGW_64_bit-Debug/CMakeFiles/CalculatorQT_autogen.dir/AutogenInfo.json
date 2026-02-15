@@ -832,7 +832,8 @@
 		"E:/VisualStudio/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
 		"E:/VisualStudio/Qt/6.10.2/mingw_64/lib/cmake/Qt6/Qt6Dependencies.cmake",
 		"E:/VisualStudio/Qt/Tools/CMake_64/share/cmake-3.30/Modules/GNUInstallDirs.cmake",
-		"E:/VisualStudio/projects/CalculatorQT/CalculatorQT/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/.qt/qml_imports/CalculatorQT_conf.cmake"
+		"E:/VisualStudio/projects/CalculatorQT/CalculatorQT/build/Desktop_Qt_6_10_2_MinGW_64_bit-Debug/.qt/qml_imports/CalculatorQT_conf.cmake",
+		"E:/VisualStudio/projects/CalculatorQT/CalculatorQT/icon.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "E:/VisualStudio/projects/CalculatorQT/CalculatorQT",
 	"CROSS_CONFIG" : false,

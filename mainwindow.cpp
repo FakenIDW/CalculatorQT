@@ -10,6 +10,8 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
     ui->display->setText("0");
+
+    this->setFixedSize(this->width(), this->height());
 }
 
 MainWindow::~MainWindow()

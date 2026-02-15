@@ -10,6 +10,7 @@
 #define UI_MAINWINDOW_H
 
 #include <QtCore/QVariant>
+#include <QtGui/QIcon>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QMainWindow>
@@ -52,10 +53,17 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
-        MainWindow->resize(296, 428);
+        MainWindow->resize(300, 394);
         QFont font;
         font.setPointSize(14);
         MainWindow->setFont(font);
+        QIcon icon;
+        icon.addFile(QString::fromUtf8("icon/calculator_icon.ico"), QSize(), QIcon::Mode::Normal, QIcon::State::Off);
+        icon.addFile(QString::fromUtf8(":/icon/icon/calculator_icon.ico"), QSize(), QIcon::Mode::Normal, QIcon::State::On);
+        icon.addFile(QString::fromUtf8(":/icon/icon/calculator_icon.ico"), QSize(), QIcon::Mode::Disabled, QIcon::State::Off);
+        icon.addFile(QString::fromUtf8(":/icon/icon/calculator_icon.ico"), QSize(), QIcon::Mode::Active, QIcon::State::Off);
+        icon.addFile(QString::fromUtf8(":/icon/icon/calculator_icon.ico"), QSize(), QIcon::Mode::Active, QIcon::State::On);
+        MainWindow->setWindowIcon(icon);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
         pushButton = new QPushButton(centralwidget);
@@ -127,7 +135,7 @@ public:
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 296, 31));
+        menubar->setGeometry(QRect(0, 0, 300, 31));
         MainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName("statusbar");
