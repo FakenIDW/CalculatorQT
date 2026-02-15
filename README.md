@@ -18,7 +18,10 @@ A simple calculator built with C++ and Qt Framework.
 - QJSEngine for expression evaluation
 
 ## Screenshots
-
+Enter mathematical expression and press "="
+![Screenshot1](https://github.com/FakenIDW/CalculatorQT/blob/main/CalculatorPNG1.png)
+Get the result
+![Screensot2](https://github.com/FakenIDW/CalculatorQT/blob/main/CalculatorPNG2.png)
 
 ## How to build
 1. Clone the repository
