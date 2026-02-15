@@ -34,6 +34,6 @@ Get the result
 4. Build and run
 
 ## 🚀 How to Run – Quick & Easy
-1. Download CalculatorQT.rar file from the Releases section
+1. Download CalculatorQT.rar from the Releases section
 2. Unzip the archive into any folder
 3. Run CalculatorQT.exe
