@@ -32,3 +32,8 @@ Get the result
 2. Open with Qt Creator
 3. Configure with CMake
 4. Build and run
+
+## 🚀 How to Run – Quick & Easy
+1. Download CalculatorQT.rar file from the Releases section
+2. Unzip the archive into any folder
+3. Run CalculatorQT.exe
